@@ -9,7 +9,7 @@ const Modal = ({isVisible, onClose, content, src, index}) => {
             <div class="position-absolute top-50 start-50 translate-middle">
                 <div className={style.content}>
                     <img src={src} width={300} height={300} style= {{"borderRadius": "10%"}} alt=""/>
-                    <div className={style.content_inner}>
+                    <div key={index} className={style.content_inner}>
                         <div className={style.content_text}>PoG NO.{index}</div>
                         {
                             content.map((i) => {

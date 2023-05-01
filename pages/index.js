@@ -48,7 +48,7 @@ export default function Home() {
       </Head>
       {/* Header */}
       <div class="mx-auto" style={{"backgroundColor": "black", "width": "80%"}}>
-        <Image class="position-relative top-0 start-50 translate-middle-x" src={pogImg} alt="" width={400}/>
+        <Image priority class="position-relative top-0 start-50 translate-middle-x" src={pogImg} alt="" width={400}/>
       </div>
       {/* Modal */}
       <Modal isVisible={showModal} onClose={() => setShowModal(false)} content={Content} src={imgSrc} index={Indexing}></Modal>
@@ -58,7 +58,7 @@ export default function Home() {
         <div class="row">
             { 
               nft_data && nft_data.nfts.map((nft, index) => {
-                return <NftDisplay src={nft.rawMetadata.image} handleClick={setInfo} index={index} checkModal={showModal}/>
+                return <NftDisplay key={index} src={nft.rawMetadata.image} handleClick={setInfo} index={index} checkModal={showModal}/>
               })
             }
         </div>

@@ -3,7 +3,7 @@ import styles from './grid.module.css'
 export default function NftDisplay(props){
 
     return(
-        <div class="col" style={{"backgroundColor": "black"}}>
+        <div key={props.index} class="col" style={{"backgroundColor": "black"}}>
             {/* Image */}
             <img 
             onClick={() => {props.handleClick(true, props.index);}}
