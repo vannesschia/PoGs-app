@@ -1,0 +1,30 @@
+.text {
+    color: rgba(56,87,41,0.85);
+    font-size: medium;
+    font-family: monospace;
+    font-weight: bolder;
+    letter-spacing: 3.5px;
+    margin-bottom: 20px;
+}
+
+.button {
+    border: none;
+    border-width: 0;
+}
+
+.element{
+margin-bottom: 8px;
+}
+
+.e{
+    transition: 0.2s;
+    transition-timing-function: ease;
+}
+
+.e:hover{
+cursor: pointer;
+transform: scale(1.015);
+transition: 0.2s;
+transition-timing-function: ease;
+box-shadow: 10px -10px 25px 0 rgb(58,135,103,0.3), -10px 10px 25px 0 rgb(58,135,103,0.3);
+}

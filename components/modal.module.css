@@ -1,0 +1,20 @@
+.background {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.content{
+    background-color: rgba(211, 211, 211);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content_inner{
+    margin-top: 10px;
+}
+
+.content_text{
+    font-family: monospace;
+    margin-left: 5px;
+}
