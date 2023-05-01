@@ -2,7 +2,7 @@ import { Network, Alchemy } from 'alchemy-sdk'
 import Head from 'next/head'
 import { Fragment, useEffect, useState } from 'react'
 import NftDisplay from '../components/NftDisplay'
-import pogImg from '/Users/wenxi/Documents/POGS/pogs_eval/public/glowing_pog.png'
+import pogImg from '../public/glowing_pog.png'
 import Image from 'next/image'
 import Modal from '../components/modal.js'
 
