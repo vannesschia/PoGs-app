@@ -41,13 +41,13 @@ export default function Home() {
   const [Indexing, setIndexing] = useState(0);
 
   return (
-    <div style={{"background-color": "black"}}>
+    <div style={{"backgroundColor": "black"}}>
       <Fragment>
       <Head>
         <title>PoGs</title>
       </Head>
       {/* Header */}
-      <div class="mx-auto" style={{"background-color": "black", "width": "80%"}}>
+      <div class="mx-auto" style={{"backgroundColor": "black", "width": "80%"}}>
         <Image class="position-relative top-0 start-50 translate-middle-x" src={pogImg} alt="" width={400}/>
       </div>
       {/* Modal */}

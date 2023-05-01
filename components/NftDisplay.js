@@ -3,12 +3,12 @@ import styles from './grid.module.css'
 export default function NftDisplay(props){
 
     return(
-        <div class="col" style={{"background-color": "black"}}>
+        <div class="col" style={{"backgroundColor": "black"}}>
             {/* Image */}
             <img 
             onClick={() => {props.handleClick(true, props.index);}}
             className={`${styles.element} ${props.checkModal ? styles.element : styles.e}`} 
-            style= {{"border-radius": "10%"}}
+            style= {{"borderRadius": "10%"}}
             src = {props.src}
             alt=""
             width={150}
